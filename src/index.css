@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "daisyui";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  --color-base: #0ea5e9;
+  --color-base2: #5e7b27;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.text-base-verde{
+  color: var(--color-base2);
+}
+.bg-base-verde{
+  background-color: var(--color-base2);
+}
+
+.lineaVerde {
+  position: relative;
+}
+
+.lineaVerde::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #83be48;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.lineaVerde:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+
+
+
+
