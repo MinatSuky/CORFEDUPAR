@@ -4,8 +4,8 @@ import logoBlanco from "../IMGS/Logo_png.png"
 
 export const BarraPrincipal = () => {
   return (
-    <div>
-      <div className='flex justify-around items-center bg-base-verde'>
+    <div className='flex flex-col'>
+      <div className='fixed z-10 w-full flex justify-around items-center bg-base-verde'>
         <div className='flex gap-4 items-center py-2'>
           <div>
             <img className='drop-shadow-xl w-[80px]' src={logoBlanco} alt="" />
@@ -28,7 +28,7 @@ export const BarraPrincipal = () => {
 
 
       </div>
-      <div className='bg-base-verde-oscuro flex justify-around items-center'>
+      <div className='bg-base-verde-oscuro w-full flex top-[135px] shadow-2xl fixed z-10 justify-around items-center'>
         <div className='redes-sociales flex items-center gap-2'>
           <p className='border w-full border-white rounded-full py-1 px-1 md:py-3 md:px-3 my-3 shadoow'>
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="M13.355 22v-9.123h3.062l.459-3.555h-3.52v-2.27c0-1.03.285-1.731 1.761-1.731L17 5.32V2.14A25 25 0 0 0 14.257 2c-2.715 0-4.573 1.657-4.573 4.7v2.622h-3.07v3.555h3.07V22z" /></svg>
