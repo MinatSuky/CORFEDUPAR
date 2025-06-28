@@ -10,7 +10,9 @@
   background-color: #ffffff;
 
   --color-base: #0ea5e9;
-  --color-base2: #5e7b27;
+  --color-base2: #439539;
+  --color-base3: #015811;
+  --color-base4: #ea5f28;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,6 +24,15 @@
 }
 .bg-base-verde{
   background-color: var(--color-base2);
+}
+.bg-base-verde-oscuro{
+  background-color: var(--color-base3);
+}
+.bg-base-naranja{
+  background-color: var(--color-base4);
+}
+.text-base-naranja{
+  color: var(--color-base4);
 }
 
 .lineaVerde {

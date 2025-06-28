@@ -5,7 +5,9 @@ import feria1 from "../src/IMGS/feria1.JPG"
 import feria3 from "../src/IMGS/feria3.JPG"
 import feria4 from "../src/IMGS/feria4.JPG"
 import feria5 from "../src/IMGS/feria5.JPG"
-import plaza from "../src/IMGS/plaza.JPG"
+import plaza from "../src/IMGS/sesion1.2.png"
+import MobileSesion1 from "../src/IMGS/sesion1 Mobile.png"
+import sesion3 from "../src/IMGS/sesion3-1.png"
 import ser1 from "../src/IMGS/servicio 1.jpg"
 import ser2 from "../src/IMGS/servicio 2.jpeg"
 import ser3 from "../src/IMGS/servicio 3.jpg"
@@ -20,11 +22,8 @@ function App() {
       <BarraPrincipal />
       {/* --------- sesion #1 ---------- */}
       <div className='w-[100%] flex flex-col items-center justify-center relative'>
-        <img className='w-full h-full object-cover rounded-t-[10px] shadow-2xl opacity-60' src={plaza} alt="" />
-        <div className='absolute flex flex-col items-center text-center'>
-          <p className='textPrincipal font-bold'>CORPORACIÓN  <br /> AGROPECUARIA </p>
-          <p className='textPequeño font-bold'>VALLEDUPAR – CORFEDUPAR</p>
-        </div>
+        <img className='w-full h-full object-cover shadow-2xl hidden md:flex' src={plaza} alt="" />
+        <img className='w-full h-full object-cover shadow-2xl flex md:hiden' src={MobileSesion1} alt="" />
       </div>
       {/* --------- sesion #2 ---------- */}
       <p className='text-base-verde text-4xl font-bold text-center mt-16'>¿Quienes Somos?</p>
@@ -95,7 +94,11 @@ function App() {
 
       </div>
       {/* --------- sesion #3 ---------- */}
-      <div className='flex flex-col bg-[#ffffc857] items-center mt-20'>
+      <div className='w-[100%] flex flex-col items-center justify-center relative mt-20'>
+        <img className='w-full h-full object-cover rounded-t-[10px] shadow-2xl' src={sesion3} alt="" />
+      </div>
+      {/* --------- sesion #4 ---------- */}
+      <div className='flex flex-col items-center mt-20'>
         <p className='text-[#a59e56] font-bold text-4xl mt-6'>Nuestros Servicios</p>
         <div className="w-full flex justify-around overflow-x-auto">
           <div className="flex w-max gap-5 mt-10 px-4 py-6">
