@@ -27,7 +27,7 @@ const Formulario = () => {
   };
 
   try {
-    await fetch('https://script.google.com/macros/s/AKfycbw10c_aL7klhgV0RIdfeLKTagOe4PeykXeWmptsFpn1wZcToLl_bNoTUWcx47QaDIy_fA/exec', {
+    await fetch('http://localhost:3001/api/registrar', {
       method: 'POST',
       body: JSON.stringify(nuevoRegistro),
       headers: {
