@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import * as XLSX from 'xlsx';
-import { saveAs } from 'file-saver';
+
 
 const Formulario = () => {
+
+    const [enviando, setEnviando] = useState(false);
     const [tipoPersona, setTipoPersona] = useState('normal');
     const [formData, setFormData] = useState({
         nombre: '',
@@ -12,67 +13,50 @@ const Formulario = () => {
     });
 
     const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-};
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
 
     const handleSubmit = async (e) => {
-  e.preventDefault();
+        e.preventDefault();
 
-  const nuevoRegistro = {
-    Tipo: tipoPersona === 'normal' ? 'Persona Natural' : 'Persona Jurídica',
-    Nombre_o_Razon_Social: formData.nombre,
-    Cedula_o_NIT: formData.documento,
-    Telefono: formData.telefono,
-    Correo: formData.correo,
-  };
+        if (enviando) return; // Previene múltiples envíos
+        setEnviando(true);
 
-  try {
-    await fetch('/api/registro.js', {
-      method: 'POST',
-      body: JSON.stringify(nuevoRegistro),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    });
+        const nuevoRegistro = {
+            Tipo: tipoPersona === 'normal' ? 'Persona Natural' : 'Persona Jurídica',
+            Nombre_o_Razon_Social: formData.nombre,
+            Cedula_o_NIT: formData.documento,
+            Telefono: formData.telefono,
+            Correo: formData.correo,
+        };
 
-    alert("Registro enviado correctamente");
+        try {
+            await fetch('/api/registro.js', {
+                method: 'POST',
+                body: JSON.stringify(nuevoRegistro),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
 
-    setFormData({
-      nombre: '',
-      documento: '',
-      telefono: '',
-      correo: ''
-    });
-  } catch (error) {
-    console.error("Error al enviar los datos:", error);
-    alert("Hubo un error al enviar los datos");
-  }
-};
+            alert("Registro enviado correctamente");
 
-// function doGet(e) {
-//   return ContentService.createTextOutput(JSON.stringify({ result: 'ok', metodo: 'GET' }))
-//     .setMimeType(ContentService.MimeType.JSON);
-// }
+            setFormData({
+                nombre: '',
+                documento: '',
+                telefono: '',
+                correo: ''
+            });
+        } catch (error) {
+            console.error("Error al enviar los datos:", error);
+            alert("Hubo un error al enviar los datos");
+        } finally {
+            // Evita que el botón quede desactivado por siempre
+            setTimeout(() => setEnviando(false), 3000); // 3 segundos de espera
+        }
+    };
 
 
-// function doPost(e) {
-//   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("RegistroUsuarios");
-//   var data = JSON.parse(e.postData.contents);
-
-//   Logger.log("Datos recibidos: " + JSON.stringify(data));
-
-//   sheet.appendRow([
-//     data.Tipo,
-//     data.Nombre_o_Razon_Social,
-//     data.Cedula_o_NIT,
-//     data.Telefono,
-//     data.Correo,
-//     new Date().toLocaleString()
-//   ]);
-
-//   return ContentService.createTextOutput(JSON.stringify({ result: 'success' }))
-//     .setMimeType(ContentService.MimeType.JSON);
-// }
 
 
     const botonActivo = 'bg-[#015811] text-sm lg:text-lg text-white px-5 py-3 rounded-md font-bold';
@@ -153,10 +137,15 @@ const Formulario = () => {
 
                 <button
                     type="submit"
-                    className="mt-4 font-bold cursor-pointer bg-[#015811] text-white py-2 px-4 rounded-md hover:bg-green-700 transition"
+                    disabled={enviando}
+                    className={`mt-4 font-bold cursor-pointer py-2 px-4 rounded-md transition 
+    ${enviando
+                            ? 'bg-gray-400 text-white cursor-not-allowed'
+                            : 'bg-[#015811] text-white hover:bg-green-700'}`}
                 >
-                    Enviar
+                    {enviando ? 'Enviando...' : 'Enviar'}
                 </button>
+
             </form>
         </div>
     );
