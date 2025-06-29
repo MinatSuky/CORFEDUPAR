@@ -49,30 +49,30 @@ const Formulario = () => {
   }
 };
 
-function doGet(e) {
-  return ContentService.createTextOutput(JSON.stringify({ result: 'ok', metodo: 'GET' }))
-    .setMimeType(ContentService.MimeType.JSON);
-}
+// function doGet(e) {
+//   return ContentService.createTextOutput(JSON.stringify({ result: 'ok', metodo: 'GET' }))
+//     .setMimeType(ContentService.MimeType.JSON);
+// }
 
 
-function doPost(e) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("RegistroUsuarios");
-  var data = JSON.parse(e.postData.contents);
+// function doPost(e) {
+//   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("RegistroUsuarios");
+//   var data = JSON.parse(e.postData.contents);
 
-  Logger.log("Datos recibidos: " + JSON.stringify(data));
+//   Logger.log("Datos recibidos: " + JSON.stringify(data));
 
-  sheet.appendRow([
-    data.Tipo,
-    data.Nombre_o_Razon_Social,
-    data.Cedula_o_NIT,
-    data.Telefono,
-    data.Correo,
-    new Date().toLocaleString()
-  ]);
+//   sheet.appendRow([
+//     data.Tipo,
+//     data.Nombre_o_Razon_Social,
+//     data.Cedula_o_NIT,
+//     data.Telefono,
+//     data.Correo,
+//     new Date().toLocaleString()
+//   ]);
 
-  return ContentService.createTextOutput(JSON.stringify({ result: 'success' }))
-    .setMimeType(ContentService.MimeType.JSON);
-}
+//   return ContentService.createTextOutput(JSON.stringify({ result: 'success' }))
+//     .setMimeType(ContentService.MimeType.JSON);
+// }
 
 
     const botonActivo = 'bg-[#015811] text-sm lg:text-lg text-white px-5 py-3 rounded-md font-bold';

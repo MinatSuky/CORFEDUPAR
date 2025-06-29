@@ -4,7 +4,13 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: 'http://localhost:5173', // Solo permite tu app React
+  methods: ['POST'],
+  allowedHeaders: ['Content-Type']
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.post('/api/registrar', async (req, res) => {
