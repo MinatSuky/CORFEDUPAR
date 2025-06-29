@@ -27,7 +27,7 @@ const Formulario = () => {
   };
 
   try {
-    await fetch('http://localhost:3001/api/registrar', {
+    await fetch('/api/registro.js', {
       method: 'POST',
       body: JSON.stringify(nuevoRegistro),
       headers: {
