@@ -7,7 +7,7 @@ export const BarraPrincipal = () => {
     <div className='flex flex-col'>
       <div className='fixed z-10 w-full flex justify-around items-center bg-base-verde'>
         <div className='flex gap-4 items-center py-2'>
-          <div>
+          <div className='flex flex-col items-center'>
             <img className='drop-shadow-xl w-[80px]' src={logoBlanco} alt="" />
             <p className='text-white  font-extrabold text-shado'>CORFEDUPAR</p>
           </div>
