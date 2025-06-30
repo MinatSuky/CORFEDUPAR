@@ -1,5 +1,5 @@
 import React from 'react'
-import Sesion2 from '../src/componentes/Sesion2'
+import Sesion2 from '../src/componentes/Sesioon#2'
 import Sesion3 from '../src/componentes/Sesion3'
 import Sesion4 from '../src/componentes/Sesion4'
 import Sesion5 from '../src/componentes/Sesion5'
