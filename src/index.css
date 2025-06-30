@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+html {
+  scroll-behavior: smooth;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -56,9 +59,25 @@
   transform-origin: bottom left;
   transform: scaleX(1);
 }
-.ocultar-scroll::-webkit-scrollbar {
-  display: none;
-}
+ .ocultar-scroll::-webkit-scrollbar {
+        display: none;
+      }
+      
+      /* Fondo de la scrollbar */
+       .ocultar-scroll::-webkit-scrollbar-track {
+        display: none;
+      }
+      
+      
+      /* Color y diseño de la scrollbar */
+      .ocultar-scroll::-webkit-scrollbar-thumb {
+        display: none;
+      }
+      
+      /* Estilo cuando la scrollbar está activa (hover) */
+      .ocultar-scroll::-webkit-scrollbar-thumb:hover {
+        display: none;
+      }
 
 .galeria {
   display: grid;

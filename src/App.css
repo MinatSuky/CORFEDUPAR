@@ -26,3 +26,6 @@
 .shadoow{
     box-shadow: 4px 4px 5px rgba(59, 59, 59, 0.7);
 }
+.drop-shadoow{   
+  filter: drop-shadow(1px 15px 10px rgba(0, 0, 0, 0.844));
+}

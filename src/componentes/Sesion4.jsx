@@ -6,12 +6,16 @@ import ser2 from "../IMGS/subasta.JPG"
 import ser3 from "../IMGS/servicio 3.jpg"
 import ser4 from "../IMGS/servicio 4.jpg"
 import ser5 from "../IMGS/servicio 5.jpg"
-
+import tractor from "../IMGS/tarctor.png"
+import tractor2 from "../IMGS/tractor verde.png"
 
 const Sesion4 = () => {
   return (
-    <div className='flex flex-col items-center mt-20'>
-            <p className='text-base-verde font-bold text-4xl mt-6'>Nuestros Servicios</p>
+    <div className='flex flex-col items-center '>
+      <div className='w-full flex justify-start'>
+          <img className='w-[100px] lg:w-[200px] drop-shadoow' src={tractor} alt="" />
+      </div>
+            <p className='text-base-verde font-bold text-4xl mt-6'>NUESTROS SERVICIOS</p>
             <div className="w-full flex justify-around ocultar-scroll overflow-x-auto">
               <div className="flex w-max gap-5 mt-10 px-4 py-6 mb-10">
                 <CardSesion3 IMG={ser4} text="•	CAPACITACÓN GENERAL" svg={<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><path fill="#65a30d" d="M3.33 8L10 12l10-6l-10-6L0 6h10v2zM0 8v8l2-2.22V9.2zm10 12l-5-3l-2-1.2v-6l7 4.2l7-4.2v6z"/></svg>} />
@@ -21,6 +25,9 @@ const Sesion4 = () => {
                 <CardSesion3 IMG={ser5} text="•	ZONA DE PARQUEADERO" svg={<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512 512"><path fill="#65a30d" d="M256 44.158L19.76 165.816L32 173.937l224-112l224 112l12.24-8.12L256 44.157zm0 37.904l-215 107.5V495h30V203h370v292h30V189.562zM92 223v18h328v-18zm0 36v18h328v-18zm100 36c-8.5 0-14.393 5.524-18.95 11.6s-8.276 13.701-11.478 22.24c-4.27 11.389-7.54 24.334-9.248 36.887c-8.722-2.235-22.048-4.431-24.324 2.273c-2.354 6.934 7.344 13.583 16.668 18.217c-.32 1.067-.63 2.17-.906 3.344C141.969 397.18 141 406.6 141 416s.969 18.82 2.762 26.44c1.272 5.406 3.108 9.766 4.744 12.56h214.988c1.636-2.794 3.472-7.154 4.744-12.56C370.031 434.82 371 425.4 371 416s-.969-18.82-2.762-26.44a57 57 0 0 0-.906-3.343c9.324-4.634 19.022-11.283 16.668-18.217c-2.276-6.704-15.602-4.508-24.324-2.273c-1.707-12.553-4.977-25.498-9.248-36.887c-3.202-8.539-6.922-16.165-11.479-22.24C334.393 300.524 328.5 295 320 295zm0 18h128c-.5 0 1.607.476 4.55 4.4c2.944 3.925 6.224 10.299 9.022 17.76c3.673 9.795 6.488 21.437 8.028 32.414C318.195 361.125 292.18 361 256 361s-62.195.125-85.6 6.574c1.54-10.977 4.355-22.62 8.028-32.414c2.798-7.461 6.078-13.835 9.021-17.76c2.944-3.924 5.051-4.4 4.551-4.4m-16 87a16 16 0 0 1 16 16a16 16 0 0 1-16 16a16 16 0 0 1-16-16a16 16 0 0 1 16-16m160 0a16 16 0 0 1 16 16a16 16 0 0 1-16 16a16 16 0 0 1-16-16a16 16 0 0 1 16-16m-183 73v22h30v-22zm176 0v22h30v-22z"/></svg>} />
               </div>
             </div>
+            <div className='w-full flex justify-end bottom-2 -z-10'>
+          <img className='w-[150px] lg:w-[300px] drop-shadoow' src={tractor2} alt="" />
+      </div>
           </div>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Formulario = () => {
@@ -63,7 +64,7 @@ const Formulario = () => {
     const botonInactivo = 'border text-sm lg:text-lg border-[#015811] text-[#015811] px-5 font-bold py-3 rounded-md bg-transparent cursor-pointer';
 
     return (
-        <div className='contenedor mt-10'>
+        <div id="formulario" className='contenedor mt-10'>
             <p className='mx-2 lg:mx-10 text-[#015811] mb-10 text-3xl font-bold'>Registrate Aquí!</p>
             <div className="opciones flex gap-2 mx-10">
                 <button
@@ -134,6 +135,12 @@ const Formulario = () => {
                         />
                     </div>
                 </div>
+
+                <label className="text-[10px] md:text-[14px] mt-4 flex items-start gap-2">
+                    <input type="checkbox" required className="mt-1" />
+                    Acepto los <Link to={'/Terminos'} className="text-green-700 underline">términos y condiciones</Link> para el uso de mis datos personales.
+                </label>
+
 
                 <button
                     type="submit"
