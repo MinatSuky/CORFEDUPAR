@@ -4,7 +4,7 @@ import feria3 from "../IMGS/feria3.JPG"
 import feria4 from "../IMGS/feria4.JPG"
 import feria5 from "../IMGS/feria5.JPG"
 
-const Sesion2 = () => {
+const Sesioon2 = () => {
   return (
     
           <div className='sm:flex sm:flex-col xl:flex-row mt-10 gap-16'>
@@ -78,7 +78,7 @@ const Sesion2 = () => {
   )
 }
 
-export default Sesion2
+export default Sesioon2
 
 
 
