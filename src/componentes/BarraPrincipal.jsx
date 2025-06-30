@@ -76,8 +76,15 @@ export const BarraPrincipal = () => {
               <label htmlFor="my-drawer-4" aria-label="close sideba" className="drawer-overlay"></label>
               <div className="menu flex flex-col gap-5 bg-white text-black min-h-full w-70 p-4">
                 {/* Sidebar content here */}
-                <p className='font-medium lineaVerde cursor-pointer mt-10'>SOBRE LA FERIA</p>
-                <p className='font-medium lineaVerde cursor-pointer'>SOY EXPOSITOR </p>
+                <Link to={'/'}><p className='font-bold mt-10 lineaVerde cursor-pointer'>INICIO</p></Link>
+                <p className='font-bold lineaVerde cursor-pointer'>SOBRE LA FERIA</p>
+                <hr />
+                <Link to={'/PageCORFEDUPAR'}> <li className='px-2 py-2 cursor-pointer font-normal'>CORFEDUPAR</li></Link>
+                <Link to={'/PageORGANIGRAMA'}> <li className='px-2 py-2 cursor-pointer font-normal'>ORGANIGRAMA</li></Link>
+                <p className='font-bold lineaVerde cursor-pointer'>SOY EXPOSITOR </p>
+                <hr />
+                <Link to={'/PageEXPOSITOR'}>  <p className='px-2 py-2 cursor-pointer font-normal'>PERFIL EXPOSITOR</p> </Link>
+                <Link to={'/PageBENEFICIOS'}>  <p className='px-2 py-2 cursor-pointer font-normal'>BENEFICIOS DE EXPOSIYOR</p> </Link>
                 <a href="#formulario" className='bg-white gap-5 items-center shadoow cursor-pointer duration-300 px-5 py-3 sm:px-5 sm:py-3 md:px-10 lg:px-12 rounded-full mt-20 flex'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20"><path fill="#ea5f28" d="M1 1h18v12l-6 6H1zm3 3v1h12V4zm0 4v1h12V8zm6 5v-1H4v1zm2 4l5-5h-5z" /></svg>
                   <p className='text-base-naranja font-bold feria'>Registrate Aqui!</p>
