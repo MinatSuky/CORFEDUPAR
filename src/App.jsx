@@ -10,6 +10,8 @@ import Expositor from '../Pages/Expositor'
 import BeneficiosExpositor from '../Pages/BeneficiosExpositor'
 import TermYcondiciones from '../Pages/TermYcondiciones'
 import Organihrama from '../Pages/Organihrama'
+import Portafolio from '../Pages/Portafolio'
+import ValoresComerciales from '../Pages/ValoresComerciales'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='PageBENEFICIOS' element={<BeneficiosExpositor/>} />
           <Route path='/Terminos' element={<TermYcondiciones/>} />
           <Route path='/PageORGANIGRAMA' element={<Organihrama/>} />
+          <Route path='/PagePORTAFOLIO' element={<Portafolio/>} />
+          <Route path='/Valores' element={<ValoresComerciales/>} />
         </Routes>
       </BrowserRouter>
       

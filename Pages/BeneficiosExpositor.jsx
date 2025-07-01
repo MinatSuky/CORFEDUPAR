@@ -11,10 +11,10 @@ const BeneficiosExpositor = () => {
             <BarraPrincipal />
             <div className='relative flex justify-around items-center mt-48 lg:mt-40'>
                 <img className='w-full ' src={img} alt="" />
-                <p className='text-white font-bold lg:text-5xl absolute '>SOY EXPOSITOR</p>
+                <p className='text-white font-bold lg:text-5xl absolute '>BENEFICIOS DEL EXPOSITOR</p>
             </div>
             <div className=' mx-5 lg:mx-20 mt-20 mb-30 lg:mb-70'>
-                <p className='feria font-bold lg:text-5xl'>Beneficios para el expositor</p>
+                <p className='feria font-bold lg:text-5xl text-base-verde-oscuro'>Beneficios para el expositor</p>
                 <div className='flex flex-col lg:flex-row gap-5 items-center mt-10'>
                     <div className='w-full lg:w-[50%]'>
                         <span className='font-bold'>CORFEDUPAR</span> se ha consolidado como el punto de referencia comercial más destacado del sector agropecuario, ofreciendo una plataforma estratégica para proyectarse a nivel nacional e internacional.

@@ -50,11 +50,11 @@ const TermYcondiciones = () => {
                 <span className='font-bold text-black'>Responsable del tratamiento</span>
                 <br />
                 <br />
-                [Nombre de tu organización]
+                CORFEDUPAR
                 <br />
-                Correo de contacto: [tu_email@dominio.com]
+                Correo de contacto: corfedupar@yahoo.com
                 <br />
-                Teléfono: [número]
+                Teléfono: 3238884955
                 <br />
                 <br />
                 <span className='font-bold text-black'>Vigencia:</span>

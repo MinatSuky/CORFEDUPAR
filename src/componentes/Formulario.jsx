@@ -71,7 +71,7 @@ const Formulario = () => {
                     className={tipoPersona === 'normal' ? botonActivo : botonInactivo}
                     onClick={() => setTipoPersona('normal')}
                 >
-                    Persona Normal
+                    Persona Natural
                 </button>
                 <button
                     className={tipoPersona === 'juridica' ? botonActivo : botonInactivo}

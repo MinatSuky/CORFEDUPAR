@@ -25,6 +25,9 @@ html {
 .text-base-verde{
   color: var(--color-base2);
 }
+.text-base-verde-oscuro{
+  color: var(--color-base3);
+}
 .bg-base-verde{
   background-color: var(--color-base2);
 }

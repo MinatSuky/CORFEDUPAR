@@ -47,7 +47,7 @@ const Sesioon2 = () => {
             {/* Columna derecha */}
             <div className='w-[100%] mt-10 xl:mt-0 items-center sm:w-[100%] sm:items-center xl:w-[50%] flex justify-around flex-col px-3 md:px-10'>
     
-              <p className='mt-4 text-[14px] md:text-lg'> <span className='font-bold'>LA CORPORACION AGROPECUARIA DE FERIAS Y EXPOSICIONES DE VALLEDUPAR – CORFEDUPAR,</span> es una entidad privada sin ánimo de lucro, persona jurídica  con numero de matricula 0500451 inscrita en la cámara de comercio de Valledupar desde el 04 de febrero de 1998, pero quien llevo a cabo su primer evento ferial en abril del año 1975 alterno con el Festival vallenato,  marcando  el inicio de lo que ha sido este evento, quien desde entonces ha venido demostrando que es la vitrina vendedora de la costa, donde año tras año vincula a los ganaderos del cesar y del resto del país para la muestra de sus hatos ganaderos y avances tecnológicos en sus predios, como también le permite a las empresas locales y nacionales  mostrar sus productos, servicios, avances e innovaciones.</p>
+              <p className='mt-4 text-[14px] md:text-lg'> <span className='font-bold'>LA CORPORACION AGROPECUARIA DE FERIAS Y EXPOSICIONES DE VALLEDUPAR – CORFEDUPAR,</span> es una entidad privada sin ánimo de lucro, persona jurídica  con número de matricula 0500451 inscrita en la cámara de comercio de Valledupar desde el 04 de febrero de 1998, pero quien llevo a cabo su primer evento ferial en abril del año 1975 alterno con el Festival Vallenato,  marcando  el inicio de lo que ha sido este evento, quien desde entonces ha venido demostrando que es la vitrina vendedora de la costa, donde año tras año vincula a los ganaderos del Cesar y del resto del país para la muestra de sus hatos ganaderos y avances tecnológicos en sus predios, como también le permite a las empresas locales y nacionales  mostrar sus productos, servicios, avances e innovaciones.</p>
     
               <div className='flex flex-col md:flex-row gap-3 items-start mt-8'>
                 <div className='ml-3'>
@@ -56,7 +56,7 @@ const Sesioon2 = () => {
                 </div>
                 <div >
                   <p className='text-base-verde text-xl font-bold hidden md:flex'>VISIÓN</p>
-                  <p className='mt-4 text-[14px] md:text-lg'>Celebrar periódicamente eventos feriales bovinos, equinos, y ovino- caprino , Promover y difundir información  útil sobre  el desarrollo de la ganadería y sus cruces en Colombia, fomentar y colaborar con asesorías ganaderas y de organización  a municipios, veredas en el departamento del cesar que realicen eventos feriales, además de la promoción del  desarrollo empresarial y el emprendimiento en actividades sociales, folclóricas y culturales</p>
+                  <p className='mt-4 text-[14px] md:text-lg'>Celebrar periódicamente eventos feriales bovinos, equinos, y ovino- caprino , promover y difundir información  útil sobre  el desarrollo de la ganadería y sus cruces en Colombia, fomentar y colaborar con asesorías ganaderas y de organización  a municipios, veredas en el departamento del Cesar que realicen eventos feriales, además de la promoción del  desarrollo empresarial y el emprendimiento en actividades sociales, folclóricas y culturales</p>
                 </div>
     
               </div>
