@@ -6,7 +6,7 @@ import Sesion5 from '../src/componentes/Sesion5'
 import Sesion6 from '../src/componentes/Sesion6'
 import Footer from '../src//componentes/Footer'
 import Formulario from '../src/componentes/Formulario'
-
+import ScrollToTop from '../src/componentes/ScollToTop'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
 import plaza from "../src/IMGS/sesion1.2.png"
 import MobileSesion1 from "../src/IMGS/sesion1 Mobile-2.png"
