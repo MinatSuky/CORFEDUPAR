@@ -4,10 +4,12 @@ import img from "../src/IMGS/img-corfedupar.png"
 import precios from "../src/IMGS/image 26.png"
 import Sesion5 from '../src/componentes/Sesion5'
 import Footer from '../src/componentes/Footer'
+import ScrollToTop from '../src/componentes/ScollToTop'
 
 const ValoresComerciales = () => {
   return (
     <div>
+      <ScrollToTop/>
       <BarraPrincipal />
             <div className='relative flex justify-around items-center mt-43 lg:mt-40'>
               <img className='w-full ' src={img} alt="" />

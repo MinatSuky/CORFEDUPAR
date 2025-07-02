@@ -7,12 +7,14 @@ import backing from "../src/IMGS/backing.png"
 import comida from "../src/IMGS/zonacomida.png"
 import Sesion5 from '../src/componentes/Sesion5'
 import Footer from '../src/componentes/Footer'
+import ScrollToTop from '../src/componentes/ScollToTop'
 
 const Portafolio = () => {
   return (
     <div>
+      <ScrollToTop/>
       <BarraPrincipal />
-      <div className='relative flex justify-around items-center mt-48 lg:mt-40'>
+      <div className='relative flex justify-around items-center mt-43 lg:mt-40'>
         <img className='w-full ' src={img} alt="" />
         <p className='text-white font-bold lg:text-5xl absolute '>PORTAFOLIO COMERCIAL</p>
       </div>

@@ -1,9 +1,5 @@
 import './App.css'
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
-
-
 import Corfedupar from '../Pages/Corfedupar'
 import Home from '../Pages/Home'
 import Expositor from '../Pages/Expositor'
