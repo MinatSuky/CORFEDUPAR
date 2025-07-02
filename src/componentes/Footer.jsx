@@ -25,7 +25,7 @@ const Footer = () => {
         </p>
         <hr className='my-5 text-white font-bold'></hr>
         <aside>
-          <p className='text-white text-center'>Copyright © {new Date().getFullYear()} CORFEDUPAR - All right reserved</p>
+          <p className='text-white text-center'>Copyright © {new Date().getFullYear()} CORFEDUPAR - Todos los derechos reservados</p>
         </aside>
       </footer>
   )

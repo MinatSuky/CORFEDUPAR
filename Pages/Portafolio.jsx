@@ -16,9 +16,10 @@ const Portafolio = () => {
       <BarraPrincipal />
       <div className='relative flex justify-around items-center mt-43 lg:mt-40'>
         <img className='w-full ' src={img} alt="" />
-        <p className='text-white font-bold lg:text-5xl absolute '>PORTAFOLIO COMERCIAL</p>
+        <p className='text-white font-bold lg:text-5xl absolute'>PORTAFOLIO COMERCIAL</p>
       </div>
       <div className='contenedor flex flex-col mt-10 mx-5 lg:mx-20'>
+        <p className='feria font-bold lg:text-5xl text-base-verde-oscuro'>Portafolio</p>
         <div className='lg:text-xl'>
           <p className="font-bold">
             En la Feria, vemos los adelantos genéticos logrados por los<br />
@@ -32,7 +33,7 @@ const Portafolio = () => {
           </p>
         </div>
         <div className='mt-16 mb-8'>
-          <p className='text-base-verde-oscuro font-bold text-lg lg:text-5xl text-shado feria'>¿QUIÉNES ASISTEN A LA FERIA?</p>
+          <p className='text-base-verde-oscuro font-bold text-lg lg:text-4xl feria'>¿Quiénes asisten a la feria?</p>
           <p className='mt-5 lg:text-xl'>
             Nos visitan alrededor de 140 expositores ganaderos y comerciales, empresas de la región y visitantes de los departamentos de Cundinamarca, Cordoba, Sucre, Magadalena, Santander, Cesar, Norte de Santander , Atlántico y Bolivar.
             Esperamos contar con la presencia de 25.000 personas durante los días de la Feria.
@@ -45,17 +46,17 @@ const Portafolio = () => {
         < hr />
         <div className='OPCION#1 flex flex-col lg:flex-row justify-between mt-6 mb-8'>
           <div>
-            <p className='text-base-verde-oscuro font-bold text-xl lg:text-5xl text-shado feria'>OPCIÓN 1</p>
-            <p className="mt-4 font-[700] text-sm lg:text-xl">STAND COMERCIAL ZONA ALTERNA - INGRESO</p>
+            <p className='text-base-verde-oscuro font-bold text-lg lg:text-4xl feria'>Opción 1</p>
+            <p className="mt-4 font-[700] text-sm lg:text-xl">Stand Comercial Zona Alterna - Ingreso</p>
             <p className="mt-4 font-[700] text-sm lg:text-xl">INCLUYE:</p>
             <ul className='mt-5 lg:text-xl'>
-              <li> * MESA DE TRABAJO (RIMAX).</li>
-              <li> * 2 SILLAS RIMAX.</li>
-              <li> * 1 TOMA CORRIENTE A 110V.</li>
-              <li> * 1 CARPA 4x4 BLANCA.</li>
-              <li> * 4 INGRESOS COMO EXPOSITOR.</li>
-              <li> * COMERCIAL DURANTE EL EVENTO.</li>
-              <li> * LOS VALORES VARIAN DE ACUERDO A LA UBICACIÓN.</li>
+              <li> * Mesa de trabajo (rimax).</li>
+              <li> * 2 Sillas Rimax.</li>
+              <li> * 1 Toma Corriente A 110V.</li>
+              <li> * 1 Carpa 4X4 Blanca.</li>
+              <li> * 4 Ingresos Como Expositor.</li>
+              <li> * Comercial Durante El Evento.</li>
+              <li> * Los Valores Varian De Acuerdo A La Ubicación.</li>
             </ul>
           </div>
           <img className='lg:w-[40%] mt-7 lg:mt-0 rounded-xl shadow-2xl' src={op1} alt="" />
@@ -63,15 +64,15 @@ const Portafolio = () => {
         <hr />
         <div className='OPCION#2 flex flex-col lg:flex-row justify-between mt-6 mb-8'>
           <div>
-            <p className='text-base-verde-oscuro font-bold text-xl lg:text-5xl text-shado feria'>OPCIÓN 2</p>
-            <p className="mt-4 font-[700] text-sm lg:text-xl">ZONA DE VEHICULOS ENTRADA ALTERNA Y MAQUINARIA <br /> PLAZOLETA COLISEO MULTIPROPOSITO</p>
+            <p className='text-base-verde-oscuro font-bold text-lg lg:text-4xl feria'>Opción 2</p>
+            <p className="mt-4 font-[700] text-sm lg:text-xl">Zona De Vehículos Entrada Alterna Y Maquinaria <br /> Plazoleta Coliseo Multipropósito</p>
             <p className="mt-4 font-[700] text-sm lg:text-xl">INCLUYE:</p>
             <ul className='mt-5 lg:text-xl'>
-              <li> * MESA DE TRABAJO (RIMAX).</li>
-              <li> * 2 SILLAS RIMAX.</li>
-              <li> * 1 CARPA 4x4 BLANCA.</li>
-              <li> * EL ESPACIO DELIMITADO PARA LA
-                EXHIBICION DE VEHICULOS, <br /> TRACTORES  Y ACCESORIOS PESADOS.</li>
+              <li> * Mesa De Trabajo (Rimax).</li>
+              <li> * 2 Sillas Rimax.</li>
+              <li> * 1 Carpa 4X4 Blanca.</li>
+              <li> * El Espacio Delimitado Para La
+                Exhibicion De Vehiculos, <br /> Tractores  Y Accesorios Pesados.</li>
             </ul>
           </div>
           <img className='lg:w-[40%] mt-7 lg:mt-0 rounded-xl shadow-2xl' src={op2} alt="" />
@@ -79,12 +80,12 @@ const Portafolio = () => {
         <hr />
         <div className='BACKING flex flex-col lg:flex-row justify-between mt-6 mb-8'>
           <div className='lg:w-[50%]'>
-            <p className='text-base-verde-oscuro font-bold text-xl lg:text-5xl text-shado feria'>BACKING</p>
-            <p className="mt-4 font-[700] text-sm lg:text-xl">DE 4X3 METROS EN PISTA DE JUZGAMIENTO Y DUMMY</p>
+            <p className='text-base-verde-oscuro font-bold text-lg lg:text-4xl feria'>Backing</p>
+            <p className="mt-4 font-[700] text-sm lg:text-xl">De 4X3 Metros En Pista De Juzgamiento Y Dummy</p>
             <p className="mt-4 font-[700] text-sm lg:text-xl">BACKING:</p>
             <ul className='mt-5'>
-              <li className='lg:text-2xl'>IMAGEN EDITABLE ENTREGADA POR EL CLIENTE. <br /> VALOR: $5.000.000.</li>
-              <li className='lg:text-2xl mt-10'>EL COSTO DEL ESPACIO VARIA DE ACUERDO AL PRODUCTO A PROMOCIONAR.</li>
+              <li className='lg:text-2xl'>Imagen Editable Entregada Por El Cliente. <br /> Valor: $5.000.000.</li>
+              <li className='lg:text-2xl mt-10'>El Costo Del Espacio Varia De Acuerdo Al Producto A Promocionar.</li>
             </ul>
           </div>
           <img className='lg:w-[40%] mt-7 lg:mt-0 rounded-xl shadow-2xl' src={backing} alt="" />
@@ -92,14 +93,14 @@ const Portafolio = () => {
         <hr />
         <div className='ZONACOMIDA flex flex-col lg:flex-row justify-between mt-6 mb-8'>
           <div>
-            <p className='text-base-verde-oscuro font-bold text-xl lg:text-5xl text-shado feria'>ZONA DE COMIDA</p>
-            <p className="mt-4 font-[700] text-sm lg:text-xl">COLISEO MULTIPROPOSITO LUIS ALBERTO MONSALVO RAMIREZ</p>
+            <p className='text-base-verde-oscuro font-bold text-lg lg:text-4xl feria'>Zona de comida</p>
+            <p className="mt-4 font-[700] text-sm lg:text-2xl">Coliseo multiproposito luis alberto monsalvo ramirez</p>
             <ul className='mt-5'>
-              <li className='lg:text-2xl'>ES UN ESPACIO APROXIMADO DE 3X4; QUE TIENE LAVAPLATO; <br /> ABANICO DE TECHO.
-                Y UN ESPACION EN FRENTE DEL STAND <br />
-                PARA COLOCAR MESAS Y SILLAS</li>
-              <li className='lg:text-2xl mt-10'>DUMIS: ENTREGADOS POR EL CLIENTE PARA SER UBICADOS, <br />
-                DE ACUERDO EL TAMAÑO SERA EL VALOR.</li>
+              <li className='lg:text-2xl'>Es un espacio aproximado de 3x4; que tiene lavaplato; <br /> abanico de techo.
+                Y un espacion en frente del stand <br />
+                para colocar mesas y sillas</li>
+              <li className='lg:text-2xl mt-10'>Dumis: entregados por el cliente para ser ubicados, <br />
+                de acuerdo el tamaño sera el valor.</li>
             </ul>
           </div>
           <img className='lg:w-[40%] mt-7 lg:mt-0 rounded-xl shadow-2xl' src={comida} alt="" />

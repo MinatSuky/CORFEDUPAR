@@ -15,9 +15,9 @@ const ValoresComerciales = () => {
               <img className='w-full ' src={img} alt="" />
               <p className='text-white font-bold lg:text-5xl absolute'>PRECIOS COMERCIALES</p>
             </div>
-            <div className='mt-10 mx-3 lg:mx-20 flex flex-col lg:flex-row justify-center items-start gap-5'>             
-              <ul>
-                <p className='feria font-bold text-lg lg:text-3xl'>OPCIÓN 1:  $15.000.000</p>
+            <div className='mt-10 mx-3 lg:mx-20 flex flex-col lg:flex-row justify-between items-center lg:items-star gap-5'>             
+              <ul className='border-2 w-full lg:w-auto border-green-700 p-5 rounded-xl shadow-xl'>
+                <p className='feria font-bold text-lg lg:text-2xl'><span className='text-base-verde-oscuro'>Opción 1:</span> <br /> $15.000.000</p>
                 <li>Patrocinadorexclusivo Presencia de su marca en:</li>
                 <br />
                 <li> - Patrocinador exclusivo</li>
@@ -33,8 +33,8 @@ const ValoresComerciales = () => {
                 <li> - Área de parqueo</li>
               </ul>
               
-              <ul>
-                <p className='feria font-bold text-lg lg:text-3xl'>OPCIÓN 2: $10.000.000</p>
+              <ul className='border-2 w-full lg:w-auto border-green-700 px-5 pt-5 pb-18 rounded-xl shadow-xl'>
+                <p className='feria font-bold text-lg lg:text-2xl'><span className='text-base-verde-oscuro'>Opción 2:</span> <br /> $10.000.000</p>
                 <li>Patrocinadorexclusivo Presencia de su marca en:</li>
                 <br />
                 <li> - Patrocinador sin exclusividad</li>
@@ -48,8 +48,8 @@ const ValoresComerciales = () => {
                 <li> - Áreade parqueo</li>
               </ul>
 
-              <ul>
-                <p className='feria font-bold text-lg lg:text-3xl'>OPCIÓN 3: $5.000.000</p>
+              <ul  className='border-2 w-full lg:w-auto border-green-700 px-5 pt-5 pb-24 rounded-xl shadow-xl'>
+                <p className='feria font-bold text-lg lg:text-2xl'><span className='text-base-verde-oscuro'>Opción 3:</span> <br /> $5.000.000</p>
                 <li>Patrocinadorexclusivo Presencia de su marca en:</li>
                 <br />
                 <li> - Patrocinador sin exclusividad</li>
