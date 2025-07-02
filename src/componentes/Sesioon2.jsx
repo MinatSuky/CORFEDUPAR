@@ -9,7 +9,7 @@ const Sesioon2 = () => {
     
           <div className='sm:flex sm:flex-col xl:flex-row mt-10 gap-16'>
             {/* Columna izquierda */}
-            <div className='w-[100%] sm:w-[100%] xl:w-[50%] flex flex-col justify-center items-center gap-2 lg:gap-4'>
+            <div className='w-[100%] sm:w-[100%] xl:w-[50%] flex flex-col justify-start mt-5 items-center gap-2 lg:gap-4'>
     
               {/* Imagen grande */}
               <div className='flex gap-2 lg:gap-4 px-4'>

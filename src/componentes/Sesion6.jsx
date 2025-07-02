@@ -14,7 +14,7 @@ import Foto10 from "../IMGS/galeria10.JPG"
 
 const Sesion6 = () => {
   return (
-    <div className="galeria mx-0 md:mx-10 mt-20">
+    <div className="galeria mx-0 md:mx-10 mt-10">
             <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto1} alt="Imagen 1" />
             <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto2} alt="Imagen 2" />
             <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto3} alt="Imagen 3" />
