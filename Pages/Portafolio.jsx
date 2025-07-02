@@ -5,6 +5,8 @@ import op1 from "../src/IMGS/OPCION1.png"
 import op2 from "../src/IMGS/OPCION2.png"
 import backing from "../src/IMGS/backing.png"
 import comida from "../src/IMGS/zonacomida.png"
+import Sesion5 from '../src/componentes/Sesion5'
+import Footer from '../src/componentes/Footer'
 
 const Portafolio = () => {
   return (
@@ -101,6 +103,8 @@ const Portafolio = () => {
           <img className='lg:w-[40%] mt-7 lg:mt-0 rounded-xl shadow-2xl' src={comida} alt="" />
         </div>
       </div>
+      <Sesion5/>
+      <Footer/>  
     </div>
   )
 }
