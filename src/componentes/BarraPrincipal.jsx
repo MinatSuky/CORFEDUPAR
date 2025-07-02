@@ -12,7 +12,7 @@ const cerrarPopap = () => setBoton(false)
   return (
     <div className='flex flex-col'>
       {boton && (
-      <div className=' fixed h-[100vh] w-full flex justify-center items-center backdrop-blur-sm z-10 mt-20'>
+      <div className=' fixed h-[100vh] w-full flex justify-center items-center backdrop-blur-sm z-20'>
         <div className='flex relative justify-center items-center py-8 bg-white border-2 border-emerald-700 rounded-2xl z-20'>
           <p onClick={cerrarPopap} className='absolute cursor-pointer top-[4%] right-[5%]'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75l-1.48 1.48L6 9.48l-3.75 3.75l-1.48-1.48L4.52 8L.77 4.25l1.48-1.48L6 6.52l3.75-3.75l1.48 1.48L7.48 8z" fill="#000000"/></svg></p>
           <Formulario/>
