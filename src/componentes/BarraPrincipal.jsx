@@ -55,30 +55,21 @@ const cerrarPopap = () => setBoton(false)
           <a href='https://www.instagram.com/corfedupar_oficial/' className='border border-white rounded-full py-1 px-1 md:py-3 md:px-3 my-3 shadoow'>
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" /></svg>
           </a>
-          <p className='border border-white rounded-full py-1 px-1 md:py-3 md:px-3 my-3 shadoow'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256"><path fill="#ffffff" d="M215 219.85a8 8 0 0 1-7 4.15h-48a8 8 0 0 1-6.75-3.71l-40.49-63.63l-58.84 64.72a8 8 0 0 1-11.84-10.76l61.77-68l-62.6-98.32A8 8 0 0 1 48 32h48a8 8 0 0 1 6.75 3.71l40.49 63.63l58.84-64.72a8 8 0 0 1 11.84 10.76l-61.77 67.95l62.6 98.38a8 8 0 0 1 .25 8.14" /></svg>
-          </p>
-          <p className='border border-white rounded-full py-1 px-1 md:py-3 md:px-3 my-3 shadoow'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73" /></svg>
-          </p>
-          <p className='border border-white rounded-full py-1 px-1 md:py-3 md:px-3 my-3 shadoow'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16"><path fill="#ffffff" d="M8.3 1.01c.75-.01 1.5 0 2.25-.01c.05.89.36 1.8 1.01 2.43c.64.65 1.55.94 2.44 1.04v2.35c-.83-.03-1.66-.2-2.42-.56c-.33-.15-.63-.34-.93-.54c0 1.7 0 3.41-.01 5.1c-.04.82-.31 1.63-.78 2.3c-.75 1.12-2.06 1.85-3.4 1.87c-.82.05-1.65-.18-2.35-.6c-1.16-.69-1.98-1.97-2.1-3.33q-.03-.435 0-.87c.1-1.11.65-2.17 1.49-2.89c.95-.84 2.29-1.24 3.54-1c.01.86-.02 1.73-.02 2.59c-.57-.19-1.24-.13-1.74.22c-.37.24-.64.6-.79 1.02c-.12.3-.09.62-.08.94c.14.96 1.05 1.76 2.01 1.67c.64 0 1.26-.39 1.59-.94c.11-.19.23-.39.24-.62c.06-1.04.03-2.08.04-3.13c0-2.35 0-4.7.01-7.04" /></svg>
-          </p>
         </div>
         <div className='hidden md:flex gap-10 items-center text-white feria font-bold text-shado'>
           <Link to={'/'}><p className='font-medium lineaVerde cursor-pointer'>INICIO</p></Link>
 
           <div className="dropdown  dropdown-hover">
             <div tabIndex={0} role="button" className="lineaVerde cursor-default bg-[#015811] text-white m-1">SOBRE LA FERIA</div>
-            <ul tabIndex={0} className="dropdown-content menu bg-base-100 text-black  rounded-box z-1 w-52 p-2">
+            <ul tabIndex={0} className="dropdown-content menu bg-white text-black rounded-box z-1 w-52 p-2">
               <Link to={'/PageCORFEDUPAR'}> <li className='px-2 py-2 cursor-pointer font-normal'>CORFEDUPAR</li></Link>
               <Link to={'/PageORGANIGRAMA'}> <li className='px-2 py-2 cursor-pointer font-normal'>ORGANIGRAMA</li></Link>
               <Link to={'/PagePORTAFOLIO'}> <li className='px-2 py-2 cursor-pointer font-normal'>PORTAFOLIO</li></Link>
             </ul>
           </div>
           <div className="dropdown  dropdown-hover">
-            <div tabIndex={0} role="button" className="lineaVerde cursor-default bg-[#015811] text-white m-1">SOY EXPOSITOR</div>
-            <div tabIndex={0} className="dropdown-content menu bg-base-100 text-black  rounded-box z-1 w-52 p-2">
+            <div tabIndex={0} role="button" className="lineaVerde cursor-default bg-[#015811] text-white m-1">EXPOSITOR</div>
+            <div tabIndex={0} className="dropdown-content menu bg-white text-black  rounded-box z-1 w-52 p-2">
               <Link to={'/PageEXPOSITOR'}>  <p className='px-2 py-2 cursor-pointer font-normal'>PERFIL EXPOSITOR</p> </Link>
               <Link to={'/PageBENEFICIOS'}>  <p className='px-2 py-2 cursor-pointer font-normal'>BENEFICIOS DEL EXPOSITOR</p> </Link>
             </div>
@@ -101,7 +92,7 @@ const cerrarPopap = () => setBoton(false)
                 <Link to={'/PageCORFEDUPAR'}> <li className='px-2 py-2 cursor-pointer font-normal'>CORFEDUPAR</li></Link>
                 <Link to={'/PageORGANIGRAMA'}> <li className='px-2 py-2 cursor-pointer font-normal'>ORGANIGRAMA</li></Link>
                 <Link to={'/PagePORTAFOLIO'}> <li className='px-2 py-2 cursor-pointer font-normal'>PORTAFOLIO</li></Link>
-                <p className='font-bold lineaVerde cursor-pointer'>SOY EXPOSITOR </p>
+                <p className='font-bold lineaVerde cursor-pointer'>EXPOSITOR </p>
                 <hr />
                 <Link to={'/PageEXPOSITOR'}>  <p className='px-2 py-2 cursor-pointer font-normal'>PERFIL EXPOSITOR</p> </Link>
                 <Link to={'/PageBENEFICIOS'}>  <p className='px-2 py-2 cursor-pointer font-normal'>BENEFICIOS DE EXPOSIYOR</p> </Link>
