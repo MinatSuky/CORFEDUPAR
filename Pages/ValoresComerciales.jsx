@@ -2,6 +2,8 @@ import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
 import img from "../src/IMGS/img-corfedupar.png"
 import precios from "../src/IMGS/image 26.png"
+import Sesion5 from '../src/componentes/Sesion5'
+import Footer from '../src/componentes/Footer'
 
 const ValoresComerciales = () => {
   return (
@@ -75,9 +77,11 @@ const ValoresComerciales = () => {
                 <li>corfedupar@yahoo.com</li>
               </ul>
             </div>
-            <div className='mx-5 mt-8 lg:mx-20'>
+            <div className='mx-5 mt-10 lg:mx-20'>
               <img src={precios} alt="" />
             </div>
+            <Sesion5/>
+            <Footer/>
     </div>
   )
 }

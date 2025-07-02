@@ -81,7 +81,7 @@ const Formulario = () => {
                 </button>
             </div>
 
-            <form onSubmit={handleSubmit} className="mx-2 lg:mx-10 mt-6 grid gap-4 max-w-[100%] lg:max-w-[50%]">
+            <form onSubmit={handleSubmit} className="mx-2 lg:mx-10 mt-6 grid gap-4 max-w-[100%] ">
                 <div className='flex flex-col lg:flex-row gap-5 w-full'>
                     <div className='w-full'>
                         <label className="block mb-1 ml-3 font-semibold">
