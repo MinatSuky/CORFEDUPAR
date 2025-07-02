@@ -61,7 +61,6 @@ const ValoresComerciales = () => {
                 <li> - Acreditaciones</li>
                 <li> - Áreade parqueo</li>
               </ul>
-
             </div>
             <div className='mt-10 mx-3 lg:mx-20'>            
               <ul>
