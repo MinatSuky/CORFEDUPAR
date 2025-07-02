@@ -15,6 +15,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
+      <ScrollToTop/>
       <BarraPrincipal />
       {/* --------- sesion #1 ---------- */}
       <div className='w-[100%] flex flex-col mt-[170px] lg:mt-[190px] items-center justify-end relative'>
