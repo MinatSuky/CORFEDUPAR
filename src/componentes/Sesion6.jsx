@@ -1,5 +1,4 @@
-import React from 'react'
-// Galeria de imagenes
+import React, { useState } from 'react';
 import Foto1 from "../IMGS/galeria1.JPG"
 import Foto2 from "../IMGS/galeria2.JPG"
 import Foto3 from "../IMGS/galeria3.JPG"
@@ -10,23 +9,51 @@ import Foto7 from "../IMGS/galeria7.JPG"
 import Foto8 from "../IMGS/galeria8.JPG"
 import Foto9 from "../IMGS/galeria9.JPG"
 import Foto10 from "../IMGS/galeria10.JPG"
+import Foto11 from "../IMGS/galeria 11.JPG"
+import Foto12 from "../IMGS/galeria12.JPG"
 
+const images = [Foto1, Foto2, Foto3, Foto4, Foto5, Foto6, Foto7, Foto8, Foto9, Foto10, Foto11, Foto12];
 
 const Sesion6 = () => {
-  return (
-    <div className="galeria mx-0 md:mx-10 mt-10">
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto1} alt="Imagen 1" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto2} alt="Imagen 2" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto3} alt="Imagen 3" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto4} alt="Imagen 4" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto5} alt="Imagen 5" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto6} alt="Imagen 6" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto7} alt="Imagen 7" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto8} alt="Imagen 8" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto9} alt="Imagen 9" />
-            <img className='hover:scale-105 duration-200 shadow-2xl' src={Foto10} alt="Imagen 10" />
-          </div>
-  )
-}
+  const [selectedImage, setSelectedImage] = useState(null);
 
-export default Sesion6
+  return (
+    <div className="mx-2 md:mx-10 mt-10 flex flex-col gap-3 lg:gap-10">
+      {/* Mostrar galería */}
+      {[0, 4, 8].map((startIdx) => (
+        <div key={startIdx} className='flex justify-center w-full gap-[3%] h-[100px] lg:h-[300px]'>
+          {images.slice(startIdx, startIdx + 4).map((img, i) => (
+            <img
+              key={i}
+              src={img}
+              alt={`Imagen ${startIdx + i + 1}`}
+              onClick={() => setSelectedImage(img)}
+              className='object-cover object-top w-[33%] rounded-md lg:rounded-2xl shadow-2xl cursor-pointer hover:scale-105 transition duration-300 ease-in-out'
+            />
+          ))}
+        </div>
+      ))}
+
+      {/* Modal */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-[90%] max-h-[90%]" onClick={(e) => e.stopPropagation()}>
+            <img src={selectedImage} alt="Imagen grande" className="rounded-xl shadow-2xl max-h-[90vh] max-w-full" />
+            <button
+              className="absolute top-2 right-2 text-white text-2xl font-bold bg-black bg-opacity-50 px-3 py-1 rounded-full hover:bg-opacity-80"
+              onClick={() => setSelectedImage(null)}
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Sesion6;
+

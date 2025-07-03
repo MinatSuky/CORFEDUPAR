@@ -1,7 +1,7 @@
 import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
 import img from "../src/IMGS/img-corfedupar.png"
-import precios from "../src/IMGS/image 26.png"
+import precios from "../src/IMGS/Desktop - 7.png"
 import Sesion5 from '../src/componentes/Sesion5'
 import Footer from '../src/componentes/Footer'
 import ScrollToTop from '../src/componentes/ScollToTop'

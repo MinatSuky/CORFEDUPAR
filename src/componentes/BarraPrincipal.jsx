@@ -5,21 +5,21 @@ import Formulario from './Formulario';
 
 export const BarraPrincipal = () => {
 
-const [boton, setBoton] = useState(false);
-const abritPopap = () => setBoton(true)
-const cerrarPopap = () => setBoton(false)
+  const [boton, setBoton] = useState(false);
+  const abritPopap = () => setBoton(true)
+  const cerrarPopap = () => setBoton(false)
 
   return (
     <div className='flex flex-col'>
       {boton && (
-      <div className=' fixed h-[100vh] w-full flex justify-center items-center backdrop-blur-sm z-20'>
-        <div className='flex relative justify-center items-center py-8 bg-white border-2 border-emerald-700 rounded-2xl z-20'>
-          <p onClick={cerrarPopap} className='absolute cursor-pointer top-[4%] right-[5%]'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75l-1.48 1.48L6 9.48l-3.75 3.75l-1.48-1.48L4.52 8L.77 4.25l1.48-1.48L6 6.52l3.75-3.75l1.48 1.48L7.48 8z" fill="#000000"/></svg></p>
-          <Formulario/>
-      </div>  
-      </div>     
+        <div className=' fixed h-[100vh] w-full flex justify-center items-center backdrop-blur-sm z-20'>
+          <div className='flex relative justify-center items-center py-8 bg-white border-2 border-emerald-700 rounded-2xl z-20'>
+            <p onClick={cerrarPopap} className='absolute cursor-pointer top-[4%] right-[5%]'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75l-1.48 1.48L6 9.48l-3.75 3.75l-1.48-1.48L4.52 8L.77 4.25l1.48-1.48L6 6.52l3.75-3.75l1.48 1.48L7.48 8z" fill="#000000" /></svg></p>
+            <Formulario />
+          </div>
+        </div>
       )}
-      
+
       <div className='fixed z-10 w-full flex justify-around items-center bg-base-verde'>
         <div className='flex gap-4 items-center py-2'>
           <div className='flex flex-col items-center'>
@@ -43,7 +43,7 @@ const cerrarPopap = () => setBoton(false)
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20"><path fill="#ea5f28" d="M1 1h18v12l-6 6H1zm3 3v1h12V4zm0 4v1h12V8zm6 5v-1H4v1zm2 4l5-5h-5z" /></svg>
             <p onClick={abritPopap} className='text-base-naranja font-bold feria'>Registrate Aquí!</p>
           </a>
-         <Link to={'/Valores'}> <button className='cursor-pointer shadoow items-center text-[10px] md:text-[14px] flex gap-3 md:bottom-[5%] bottom-[2%] rounded-full px-5 py-1 md:px-10 md:py-3 left-[41%] shadow-2xl text-shado md:left-[24%] bg-base-naranja text-white feria font-bold'>VALORES COMERCIALES <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512"><path fill="#ffffff" fill-rule="evenodd" d="M213.304 128h42.654V42.667h-42.654zM42.688 256h85.308v-42.666H42.688zm101.466-81.674L83.84 113.974l30.156-30.166l60.313 60.352zm-30.159 211.187l-30.156-30.165l60.312-60.352l30.157 30.165zM325.12 174.326l-30.157-30.166l60.313-60.352l30.157 30.166zM270.933 464l-80.707-273.873L464 270.934l-62.72 62.72l59.733 59.52l-67.84 67.84l-59.52-59.734z" /></svg></span></button></Link>
+          <Link to={'/Valores'}> <button className='cursor-pointer shadoow items-center text-[10px] md:text-[14px] flex gap-3 md:bottom-[5%] bottom-[2%] rounded-full px-5 py-1 md:px-10 md:py-3 left-[41%] shadow-2xl text-shado md:left-[24%] bg-base-naranja text-white feria font-bold'>VALORES COMERCIALES <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512"><path fill="#ffffff" fill-rule="evenodd" d="M213.304 128h42.654V42.667h-42.654zM42.688 256h85.308v-42.666H42.688zm101.466-81.674L83.84 113.974l30.156-30.166l60.313 60.352zm-30.159 211.187l-30.156-30.165l60.312-60.352l30.157 30.165zM325.12 174.326l-30.157-30.166l60.313-60.352l30.157 30.166zM270.933 464l-80.707-273.873L464 270.934l-62.72 62.72l59.733 59.52l-67.84 67.84l-59.52-59.734z" /></svg></span></button></Link>
         </div>
 
       </div>
