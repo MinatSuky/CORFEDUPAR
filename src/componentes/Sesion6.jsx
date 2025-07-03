@@ -20,9 +20,9 @@ const Sesion6 = () => {
   return (
     <div className="mx-2 md:mx-10 mt-10 flex flex-col gap-3 lg:gap-10">
       {/* Mostrar galería */}
-      {[0, 4, 8].map((startIdx) => (
+      {[0, 3, 6, 9].map((startIdx) => (
         <div key={startIdx} className='flex justify-center w-full gap-[3%] h-[100px] lg:h-[300px]'>
-          {images.slice(startIdx, startIdx + 4).map((img, i) => (
+          {images.slice(startIdx, startIdx + 3).map((img, i) => (
             <img
               key={i}
               src={img}
