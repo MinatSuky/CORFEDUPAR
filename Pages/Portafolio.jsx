@@ -1,6 +1,6 @@
 import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
-import img from "../src/IMGS/img-corfedupar.png"
+import img from "../src/IMGS/img-titulos.png"
 import op1 from "../src/IMGS/OPCION1.png"
 import op2 from "../src/IMGS/OPCION2.png"
 import backing from "../src/IMGS/backing.png"

@@ -1,6 +1,6 @@
 import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
-import img from "../src/IMGS/img-corfedupar.png"
+import img from "../src/IMGS/img-titulos.png"
 import Sesion5 from '../src/componentes/Sesion5'
 import Footer from '../src/componentes/Footer'
 import plaza from "../src/IMGS/galeria1.JPG"

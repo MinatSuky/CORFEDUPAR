@@ -1,7 +1,7 @@
 import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
-import img from "../src/IMGS/img-corfedupar.png"
-import ORGA from "../src/IMGS/Desktop - 6.png"
+import img from "../src/IMGS/img-titulos.png"
+import ORGA from "../src/IMGS/organi.png"
 import Footer from '../src/componentes/Footer'
 import ScrollToTop from '../src/componentes/ScollToTop'
 
