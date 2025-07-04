@@ -24,11 +24,11 @@ const ValoresComerciales = () => {
                 <li> - Presencia de su marca en:</li>
                 <li> - Afiche Promocional impreso</li>
                 <li> -  Programa de mano</li>
-                <li> - Piezaspromocionales del evento en redes sociales</li>
+                <li> - Piezas promocionales del evento en redes sociales</li>
                 <li> - Logo en pantalla</li>
                 <li> - Mención en tarima como Patrocinador oficial</li>
                 <li> - Momento de marca</li>
-                <li> - Zonade experiencia</li>
+                <li> - Zona de experiencia</li>
                 <li> - Acreditaciones</li>
                 <li> - Área de parqueo</li>
               </ul>

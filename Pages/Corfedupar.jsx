@@ -16,9 +16,10 @@ const Corfedupar = () => {
                 <p className='text-white font-bold lg:text-5xl absolute'>SOBRE LA FERIA</p>
             </div>
             <div className=' mx-5 lg:mx-20 mt-20 mb-30 lg:mb-70'>
-                <p className='feria font-bold lg:text-5xl text-base-verde-oscuro'>Corfedupar</p>
-                <div className='flex flex-col lg:flex-row gap-5 items-center mt-10'>
+               
+                <div className='flex flex-col lg:flex-row gap-5 mt-10'>
                     <div className='w-full lg:w-[50%]'>
+                         <p className='feria font-bold lg:text-5xl text-xl text-base-verde-oscuro mb-10'>Corfedupar</p>
                         <span className='font-bold'>La Corporación Agropecuaria de Ferias y Exposiciones de Valledupar</span> – CORFEDUPAR es una entidad privada sin ánimo de lucro, con personería jurídica inscrita en la Cámara de Comercio de Valledupar desde el 4 de febrero de 1998 bajo el número de matrícula 0500451. No obstante, su historia se remonta mucho más atrás: fue en abril de 1975, en el marco del Festival Vallenato, cuando se llevó a cabo su primer evento ferial, marcando así el nacimiento de una de las plataformas más importantes para el sector agropecuario del país.
 <br />
 <br />

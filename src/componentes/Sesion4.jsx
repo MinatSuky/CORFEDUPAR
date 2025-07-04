@@ -1,7 +1,7 @@
 import React from 'react'
 import CardSesion3 from '../componentes/CardSesion3'
 // Servicios
-import ser1 from "../IMGS/servicio 1.jpg"
+import ser1 from "../IMGS/galeria1.JPG"
 import ser2 from "../IMGS/subasta.JPG"
 import ser3 from "../IMGS/servicio 3.jpg"
 import ser4 from "../IMGS/servicio 4.jpg"
