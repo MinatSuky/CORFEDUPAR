@@ -3,7 +3,7 @@ import CardSesion3 from '../componentes/CardSesion3'
 // Servicios
 import ser1 from "../IMGS/galeria1.JPG"
 import ser2 from "../IMGS/subasta.JPG"
-import ser3 from "../IMGS/instala.JPG"
+import ser3 from "../IMGS/galeria2.JPG"
 import ser4 from "../IMGS/servicio 4.jpg"
 import ser5 from "../IMGS/parquiadero.jpg"
 import tractor from "../IMGS/tarctor.png"
