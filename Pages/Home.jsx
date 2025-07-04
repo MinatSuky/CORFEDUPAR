@@ -11,6 +11,7 @@ import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
 import plaza from "../src/IMGS/sesion1.2.png"
 import MobileSesion1 from "../src/IMGS/sesion1 Mobile-2.png"
 import { Link } from 'react-router-dom'
+import Mapa from '../src/componentes/Mapa'
 
 const Home = () => {
   return (
@@ -38,6 +39,9 @@ const Home = () => {
       {/* --------- Formulario ---------- */}
       <Formulario/>
       {/* --------- FOOTER ---------- */}
+      <div className='mt-10'>
+        <Mapa/>
+      </div>
       <Footer/>
     </div>
   )
