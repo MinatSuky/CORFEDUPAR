@@ -9,13 +9,13 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 10.4294459,   // ejemplo: Valledupar
-  lng: -73.2419887
+  lat: 10.4295000,  
+  lng: -73.2437855
 };
 
 const Mapa = () => {
     return (
-    <LoadScript  googleMapsApiKey="AIzaSyDlBmOVx0IO_LBWwjzDUoymCKEQlUOnSho">
+    <LoadScript  googleMapsApiKey="AIzaSyAsN2Sm1t739s6F1iHJuhef6pqG8Joa6so">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}

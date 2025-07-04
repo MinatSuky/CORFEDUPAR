@@ -36,12 +36,14 @@ const Home = () => {
       {/* --------- sesion #6 ---------- */}
       <p className='text-base-verde font-bold lg:text-4xl mt-2 text-center'>GALERÍA DE IMAGENES</p>
       <Sesion6/>
+      <div className='mt-16 mx-10'>
+        <p className='text-base-verde font-bold lg:text-4xl mt-2 text-center mb-10'>UBICACIÓN GEOGRAFICA</p>
+        <Mapa/>
+      </div>
       {/* --------- Formulario ---------- */}
       <Formulario/>
       {/* --------- FOOTER ---------- */}
-      <div className='mt-10'>
-        <Mapa/>
-      </div>
+      
       <Footer/>
     </div>
   )
