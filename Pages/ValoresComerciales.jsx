@@ -18,7 +18,7 @@ const ValoresComerciales = () => {
             <div className='mt-10 mx-3 lg:mx-20 flex flex-col lg:flex-row justify-between items-center lg:items-star gap-5'>             
               <ul className='border-2 w-full lg:w-auto border-green-700 p-5 rounded-xl shadow-xl'>
                 <p className='feria font-bold text-lg lg:text-2xl'><span className='text-base-verde-oscuro'>Opción 1:</span> <br /> $15.000.000</p>
-                <li>Patrocinadorexclusivo Presencia de su marca en:</li>
+                <li>Patrocinador exclusivo Presencia de su marca en:</li>
                 <br />
                 <li> - Patrocinador exclusivo</li>
                 <li> - Presencia de su marca en:</li>
@@ -35,7 +35,7 @@ const ValoresComerciales = () => {
               
               <ul className='border-2 w-full lg:w-auto border-green-700 px-5 pt-5 pb-18 rounded-xl shadow-xl'>
                 <p className='feria font-bold text-lg lg:text-2xl'><span className='text-base-verde-oscuro'>Opción 2:</span> <br /> $10.000.000</p>
-                <li>Patrocinadorexclusivo Presencia de su marca en:</li>
+                <li>Patrocinador exclusivo Presencia de su marca en:</li>
                 <br />
                 <li> - Patrocinador sin exclusividad</li>
                 <li> - Presencia de su marca en:</li>
@@ -50,7 +50,7 @@ const ValoresComerciales = () => {
 
               <ul  className='border-2 w-full lg:w-auto border-green-700 px-5 pt-5 pb-24 rounded-xl shadow-xl'>
                 <p className='feria font-bold text-lg lg:text-2xl'><span className='text-base-verde-oscuro'>Opción 3:</span> <br /> $5.000.000</p>
-                <li>Patrocinadorexclusivo Presencia de su marca en:</li>
+                <li>Patrocinador exclusivo Presencia de su marca en:</li>
                 <br />
                 <li> - Patrocinador sin exclusividad</li>
                 <li> - Presencia de su marca en:</li>
