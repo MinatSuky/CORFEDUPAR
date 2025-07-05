@@ -1,10 +1,10 @@
 import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
-import img from "../src/IMGS/img-titulos.png"
-import op1 from "../src/IMGS/OPCION1.png"
-import op2 from "../src/IMGS/OPCION2.png"
-import backing from "../src/IMGS/backing.png"
-import comida from "../src/IMGS/zonaeat.png"
+import img from "../src/IMGS/img-titulos.webp"
+import op1 from "../src/IMGS/OPCION1.webp"
+import op2 from "../src/IMGS/OPCION2.webp"
+import backing from "../src/IMGS/backing.webp"
+import comida from "../src/IMGS/zonaeat.webp"
 import Sesion5 from '../src/componentes/Sesion5'
 import Footer from '../src/componentes/Footer'
 import ScrollToTop from '../src/componentes/ScollToTop'

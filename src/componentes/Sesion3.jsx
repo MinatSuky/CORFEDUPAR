@@ -1,6 +1,6 @@
 import React from 'react'
-import MobileSesion3 from "../IMGS/sesion3 mobile.png"
-import sesion3 from "../IMGS/sesion3-1.png"
+import MobileSesion3 from "../IMGS/sesion3-mobile.webp"
+import sesion3 from "../IMGS/sesion3-1.webp"
 
 const Sesion3 = () => {
   return (

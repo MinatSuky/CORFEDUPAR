@@ -1,8 +1,8 @@
 import React from 'react'
-import feria1 from "../IMGS/feria1.JPG"
-import feria3 from "../IMGS/feria3.JPG"
-import feria4 from "../IMGS/feria4.JPG"
-import feria5 from "../IMGS/feria5.JPG"
+import feria1 from "../IMGS/feria1.webp"
+import feria3 from "../IMGS/feria3.webp"
+import feria4 from "../IMGS/feria4.webp"
+import feria5 from "../IMGS/feria5.webp"
 
 const Sesioon2 = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
-import img from "../src/IMGS/img-titulos.png"
+import img from "../src/IMGS/img-titulos.webp"
 import Footer from '../src/componentes/Footer'
 import ScrollToTop from '../src/componentes/ScollToTop'
 

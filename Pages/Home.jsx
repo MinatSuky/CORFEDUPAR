@@ -8,8 +8,8 @@ import Footer from '../src//componentes/Footer'
 import Formulario from '../src/componentes/Formulario'
 import ScrollToTop from '../src/componentes/ScollToTop'
 import { BarraPrincipal } from '../src/componentes/BarraPrincipal'
-import plaza from "../src/IMGS/sesion1.2.png"
-import MobileSesion1 from "../src/IMGS/sesion1 Mobile-2.png"
+import plaza from "../src/IMGS/sesion1.2.webp"
+import MobileSesion1 from "../src/IMGS/sesion1-Mobile-2.webp"
 import { Link } from 'react-router-dom'
 import Mapa from '../src/componentes/Mapa'
 

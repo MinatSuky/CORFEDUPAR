@@ -1,9 +1,9 @@
 import React from 'react'
 // aliados 
-import riendas from "../IMGS/riendas.jpg"
+import riendas from "../IMGS/riendas.webp"
 import fidegan from "../IMGS/fedegan.png"
 import subagan from "../IMGS/subagan.svg"
-import ovicer from "../IMGS/Ovicer.png"
+import ovicer from "../IMGS/Ovicer.webp"
 
 
 const Sesion5 = () => {

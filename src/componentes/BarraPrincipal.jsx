@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logoBlanco from "../IMGS/Logo_png.png"
+import logoBlanco from "../IMGS/Logo_png.webp"
 import { Link } from 'react-router-dom'
 import Formulario from './Formulario';
 

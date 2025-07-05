@@ -1,13 +1,13 @@
 import React from 'react'
 import CardSesion3 from '../componentes/CardSesion3'
 // Servicios
-import ser1 from "../IMGS/galeria1.JPG"
-import ser2 from "../IMGS/subasta.JPG"
-import ser3 from "../IMGS/instala.JPG"
-import ser4 from "../IMGS/servicio 4.jpg"
-import ser5 from "../IMGS/parquiadero.jpg"
-import tractor from "../IMGS/tarctor.png"
-import tractor2 from "../IMGS/tractor verde.png"
+import ser1 from "../IMGS/galeria1.webp"
+import ser2 from "../IMGS/subasta.webp"
+import ser3 from "../IMGS/instala.webp"
+import ser4 from "../IMGS/servicio-4.webp"
+import ser5 from "../IMGS/parquiadero.webp"
+import tractor from "../IMGS/tarctor.webp"
+import tractor2 from "../IMGS/tractor-verde.webp"
 
 const Sesion4 = () => {
   return (

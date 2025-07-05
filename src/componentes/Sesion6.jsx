@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Foto1 from "../IMGS/galeria1.JPG"
-import Foto2 from "../IMGS/galeria2.JPG"
-import Foto3 from "../IMGS/galeria3.JPG"
-import Foto4 from "../IMGS/galeria4.JPG"
-import Foto5 from "../IMGS/galeria5.JPG"
-import Foto6 from "../IMGS/galeria6.JPG"
-import Foto7 from "../IMGS/galeria7.JPG"
-import Foto8 from "../IMGS/galeria8.JPG"
-import Foto9 from "../IMGS/galeria9.JPG"
-import Foto10 from "../IMGS/galeria10.JPG"
-import Foto11 from "../IMGS/galeria 11.JPG"
-import Foto12 from "../IMGS/galeria12.JPG"
+import Foto1 from "../IMGS/galeria1.webp"
+import Foto2 from "../IMGS/galeria2.webp"
+import Foto3 from "../IMGS/galeria3.webp"
+import Foto4 from "../IMGS/galeria4.webp"
+import Foto5 from "../IMGS/galeria5.webp"
+import Foto6 from "../IMGS/galeria6.webp"
+import Foto7 from "../IMGS/galeria7.webp"
+import Foto8 from "../IMGS/galeria8.webp"
+import Foto9 from "../IMGS/galeria9.webp"
+import Foto10 from "../IMGS/galeria10.webp"
+import Foto11 from "../IMGS/galeria 11.webp"
+import Foto12 from "../IMGS/galeria12.webp"
 
 const images = [Foto1, Foto2, Foto3, Foto4, Foto5, Foto6, Foto7, Foto8, Foto9, Foto10, Foto11, Foto12];
 
