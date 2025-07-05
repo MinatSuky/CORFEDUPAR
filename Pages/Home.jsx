@@ -36,7 +36,7 @@ const Home = () => {
       {/* --------- sesion #6 ---------- */}
       <p className='text-base-verde font-bold lg:text-4xl mt-2 text-center'>GALERÍA DE IMAGENES</p>
       <Sesion6/>
-      <div className='mt-16 mx-10'>
+      <div className='mt-16 lg:mx-10 mx-3 rounded-2xl'>
         <p className='text-base-verde font-bold lg:text-4xl mt-2 text-center mb-10'>UBICACIÓN GEOGRAFICA</p>
         <Mapa/>
       </div>

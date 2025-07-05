@@ -18,7 +18,7 @@ const Sesion6 = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="mx-2 md:mx-10 mt-10 flex flex-col lg:gap-10">
+    <div className="mx-2 md:mx-10 mt-10 flex flex-col gap-3 lg:gap-10">
       {/* Mostrar galería */}
       {[0, 3, 6, 9].map((startIdx) => (
         <div key={startIdx} className='flex justify-center w-full gap-[2%] h-[100px] lg:h-[300px]'>

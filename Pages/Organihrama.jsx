@@ -4,6 +4,7 @@ import img from "../src/IMGS/img-titulos.webp"
 import ORGA from "../src/IMGS/organigrama 2.webp"
 import Footer from '../src/componentes/Footer'
 import ScrollToTop from '../src/componentes/ScollToTop'
+import Sesion5 from '../src/componentes/Sesion5'
 
 const Organihrama = () => {
   return (
