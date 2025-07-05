@@ -8,7 +8,7 @@ import ovicer from "../IMGS/Ovicer.webp"
 
 const Sesion5 = () => {
   return (
-    <div className='flex flex-col items-cente mx-2'>
+    <div className='flex flex-col items-center mx-2'>
                 <p className='text-base-verde font-bold lg:text-4xl mt-1'>NUESTROS ALIADOS</p>
                 <div className="w-full flex justify-center overflow-x-auto">
                       <div className='flex w-max lg:h-[130px] h-[90px] gap-10 mt-1  py-6 ocultar-scroll mb-10'>
