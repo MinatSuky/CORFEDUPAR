@@ -29,3 +29,16 @@
 .drop-shadoow{   
   filter: drop-shadow(1px 15px 10px rgba(0, 0, 0, 0.844));
 }
+
+.imgs-galeria{
+    width: 50%;
+    height: 300px;
+}
+
+/* -------------------------- responsive ----------------------- */
+@media (max-width: 1087px) {
+    .imgs-galeria{
+    width: 50%;
+    height: 100px;
+}
+}

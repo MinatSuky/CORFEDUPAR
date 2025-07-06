@@ -5,8 +5,8 @@ import sesion3 from "../IMGS/sesion3-1.webp"
 const Sesion3 = () => {
   return (
     <div className='w-[100%] flex flex-col items-center justify-center relative mt-20'>
-        <img className='w-full h-full object-cover shadow-2xl hidden md:flex' src={sesion3} alt="" />
-        <img className='w-full h-full object-cover shadow-2xl flex md:hidden' src={MobileSesion3} alt="" />
+        <img className='object-cover shadow-2xl hidden md:flex' width={2000} height={500} src={sesion3} alt="" />
+        <img className='object-cover shadow-2xl flex md:hidden' width={450} height={490} src={MobileSesion3} alt="" />
       </div>
   )
 }

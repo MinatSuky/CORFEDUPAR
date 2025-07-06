@@ -13,12 +13,12 @@ const Sesioon2 = () => {
     
               {/* Imagen grande */}
               <div className='flex gap-2 lg:gap-4 px-4'>
-                <div className="w-full overflow-hidden shadow-md shadow-gray-400 rounded-md md:rounded-3xl border border-gray-300">
-                  <img className=' w-full h-full lg:h-90 object-cover '
+                
+                  <img className='w-full h-full lg:h-90 object-cover shadow-md shadow-gray-400 rounded-md md:rounded-3xl border border-gray-300'
                     src={feria5}
                     alt=""
                   />
-                </div>
+               
                 <div className="w-[50%] sm:w-[50%] xl:w-auto overflow-hidden shadow-md shadow-gray-400 rounded-md md:rounded-3xl border border-gray-300">
                   <img className=' w-full h-full lg:h-90 object-cover'
                     src={feria1}

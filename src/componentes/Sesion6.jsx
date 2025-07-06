@@ -21,14 +21,14 @@ const Sesion6 = () => {
     <div className="mx-2 md:mx-10 mt-10 flex flex-col gap-3 lg:gap-10">
       {/* Mostrar galería */}
       {[0, 3, 6, 9].map((startIdx) => (
-        <div key={startIdx} className='flex justify-center w-full gap-[2%] h-[100px] lg:h-[300px]'>
+        <div key={startIdx} className='flex justify-center w-full gap-[2%] h-[100%]'>
           {images.slice(startIdx, startIdx + 3).map((img, i) => (
             <img
               key={i}
               src={img}
               alt={`Imagen ${startIdx + i + 1}`}
               onClick={() => setSelectedImage(img)}
-              className='object-cover object-top w-[33%] rounded-md lg:rounded-2xl shadow-2xl cursor-pointer hover:scale-105 transition duration-300 ease-in-out'
+              className='object-cover imgs-galeria object-top rounded-md lg:rounded-2xl shadow-2xl cursor-pointer hover:scale-105 transition duration-300 ease-in-out'
             />
           ))}
         </div>
