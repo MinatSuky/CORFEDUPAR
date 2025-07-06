@@ -28,6 +28,7 @@ const Sesion6 = () => {
               src={img}
               alt={`Imagen ${startIdx + i + 1}`}
               onClick={() => setSelectedImage(img)}
+              loading="lazy"
               className='object-cover imgs-galeria object-top rounded-md lg:rounded-2xl shadow-2xl cursor-pointer hover:scale-105 transition duration-300 ease-in-out'
             />
           ))}
