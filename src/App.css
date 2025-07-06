@@ -31,14 +31,14 @@
 }
 
 .imgs-galeria{
-    width: 50%;
+    width: 800px;
     height: 300px;
 }
 
 /* -------------------------- responsive ----------------------- */
 @media (max-width: 1087px) {
     .imgs-galeria{
-    width: 50%;
+    width: 120px;
     height: 100px;
 }
 }
