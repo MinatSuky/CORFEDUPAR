@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Foto1 from "../IMGS/galeria1.webp"
 import Foto2 from "../IMGS/galeria2.webp"
 import Foto3 from "../IMGS/galeria3.webp"
 import Foto4 from "../IMGS/galeria4.webp"
@@ -12,7 +11,10 @@ import Foto10 from "../IMGS/galeria10.webp"
 import Foto11 from "../IMGS/galeria 11.webp"
 import Foto12 from "../IMGS/galeria12.webp"
 
-const images = [Foto1, Foto2, Foto3, Foto4, Foto5, Foto6, Foto7, Foto8, Foto9, Foto10, Foto11, Foto12];
+
+import Galeria1_600 from "../IMGS/opt/galeria1-600.webp";
+
+const images = [Galeria1_600, Foto2, Foto3, Foto4, Foto5, Foto6, Foto7, Foto8, Foto9, Foto10, Foto11, Foto12];
 
 const Sesion6 = () => {
   const [selectedImage, setSelectedImage] = useState(null);
