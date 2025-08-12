@@ -12,6 +12,7 @@ import plaza from "../src/IMGS/sesion1.2.webp"
 import MobileSesion1 from "../src/IMGS/sesion1-Mobile-2.webp"
 import { Link } from 'react-router-dom'
 import Mapa from '../src/componentes/Mapa'
+import ProgramacionOficial from '../src/componentes/ProgramacionOficial'
 
 const Home = () => {
   return (
@@ -42,8 +43,8 @@ const Home = () => {
       </div>
       {/* --------- Formulario ---------- */}
       <Formulario/>
-      {/* --------- FOOTER ---------- */}
-      
+      <ProgramacionOficial/>
+      {/* --------- FOOTER ---------- */}     
       <Footer/>
     </div>
   )

@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         <p className='text-white px-10 text-center mt-5'>
-          Lugar del evento: Valledupar-Cesar, Colombia / Tipo del evento: Feria agropecuaria / Fecha del evento: Del 15 al 17 de Agosto de 2025 / Horario del evento para visitantes: 10:00 a.m. a 8:00 p.m. / CORFEDUPAR. Los organizadores de la feria no se hacen responsables de ninguna negociación.
+          Lugar del evento: Valledupar-Cesar, Colombia / Tipo del evento: Feria agropecuaria / Fecha del evento: Del 15 al 17 de Agosto de 2025 / Horario del evento para visitantes: 9:00 a.m. a 6:00 p.m. / CORFEDUPAR. Los organizadores de la feria no se hacen responsables de ninguna negociación.
         </p>
         <hr className='my-5 text-white font-bold'></hr>
         <aside>
