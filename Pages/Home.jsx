@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Sesion2 from '../src/componentes/Sesioon2'
 import Sesion3 from '../src/componentes/Sesion3'
 import Sesion4 from '../src/componentes/Sesion4'
@@ -13,10 +13,16 @@ import MobileSesion1 from "../src/IMGS/sesion1-Mobile-2.webp"
 import { Link } from 'react-router-dom'
 import Mapa from '../src/componentes/Mapa'
 import ProgramacionOficial from '../src/componentes/ProgramacionOficial'
+import Popap from '../src/componentes/Popap'
 
 const Home = () => {
+
+   const [isOpen, setIsOpen] = useState(true);
+
   return (
     <div>
+      {isOpen && <Popap onClose={() => setIsOpen(false)} />}
+        
       <ScrollToTop/>
       <BarraPrincipal />
       {/* --------- sesion #1 ---------- */}
